@@ -8,14 +8,12 @@
 
 sum_of_multiples <- function(x, y, limit){
     multiples <- c()
-    for(i in 1:limit){
-        if ((i %% x == 0) || (i %% y == 0)){
+    for(i in 1:limit)
+        if ((i %% x == 0) || (i %% y == 0))
             multiples <- c(multiples, i)
-        }
-    }
     sum(multiples)
 }
 
 # Result:
-# > multiples_from(3, 5, 1000)
+# > sum_of_multiples(3, 5, 1000)
 # [1] 234168

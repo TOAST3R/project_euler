@@ -7,16 +7,14 @@ large_prime_factor <- function(n){
     large_prime <- 1
     k <- n
     i <- 2
-    while(i<round(sqrt(n))){
+    while(i<round(sqrt(n)))
         if(k %% i == 0){
             k <- k/i
             large_prime <- i
         }
-        else{
+        else
             i <- i+1
-        }
         large_prime
-    }
     large_prime
 }
 
