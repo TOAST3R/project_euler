@@ -7,8 +7,8 @@
 # Solution generalized to the sum of all the multiples of x or y below limit.
 
 sum_of_multiples = fn x, y, limit ->
-  multiples = Enum.filter 1..limit, &(rem(&1, x) == 0) || (rem(&1, y) == 0)
-  Enum.sum(multiples)
+  Enum.filter(1..limit, &(rem(&1, x) == 0) || (rem(&1, y) == 0))
+    |> Enum.sum
 end
 
 # Result:
