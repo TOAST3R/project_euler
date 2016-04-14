@@ -1,7 +1,7 @@
 # Problem 5: smallest multiple
 # https://projecteuler.net/problem=5
 
-defmodule Divisibility do
+defmodule Problem5 do
   def smallest_multiple(x) do
     recursive_lcm(x, x-1)
       |> round
@@ -22,5 +22,5 @@ defmodule Divisibility do
 end
 
 # Result:
-# > Divisibility.smallest_multiple(20)
+# > Problem5.smallest_multiple(20)
 # 232792560
