@@ -18,24 +18,23 @@ defmodule Problem8 do
       |> String.to_integer
   end
 
-  def multiply_digits(position) do
-    enum_digits = chunk_number(position)
-      |> String.to_integer
-      |> Integer.digits
-
-    Enum.scan(enum_digits, 1, &(&1 * &2))
+  defp multiply_digits(position) do
+    Enum.scan(split_in_digits(position), 1, &(&1 * &2))
       |> List.last
   end
 
-  def chunk_number(position) do
-    String.slice(@n, position..(position+13))
+  defp split_in_digits(position) do
+    chunk_number(position)
+      |> String.to_integer
+      |> Integer.digits
   end
 
+  defp chunk_number(position) do
+    String.slice(@n, position..(position+13))
+  end
 end
 
 # Result:
-# > NumTheroy.sum_square_difference(100)
-# 25164150
-
+# > c "problem_8.ex"
 # > Problem8.largest_product
 # 97536978179778
