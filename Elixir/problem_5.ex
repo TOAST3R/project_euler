@@ -2,7 +2,6 @@
 # https://projecteuler.net/problem=6
 
 defmodule Divisibility do
-
   def smallest_multiple(x) do
     recursive_lcm(x, x-1)
       |> round
@@ -21,7 +20,6 @@ defmodule Divisibility do
 
   def gcd(x, 0), do: x
   def gcd(x, y), do: gcd(y, rem(x, y))
-
 end
 
 # Result:
