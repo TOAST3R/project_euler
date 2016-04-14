@@ -1,5 +1,5 @@
 # Problem 5: smallest multiple
-# https://projecteuler.net/problem=6
+# https://projecteuler.net/problem=5
 
 defmodule Divisibility do
   def smallest_multiple(x) do
