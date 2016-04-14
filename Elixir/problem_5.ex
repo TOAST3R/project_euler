@@ -8,7 +8,6 @@ defmodule Divisibility do
   end
 
   def recursive_lcm(x, 1), do: x
-
   def recursive_lcm(x, y) do
     recursive_lcm(lcm(x, y), y - 1)
   end
