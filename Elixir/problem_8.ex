@@ -6,7 +6,7 @@ defmodule Problem8 do
   @digits 12
 
   def largest_product do
-    Enum.map(0..987, &(multiply_digits(&1)))
+    Enum.map(0..(999-@digits), &(multiply_digits(&1)))
       |> Enum.max
   end
 
