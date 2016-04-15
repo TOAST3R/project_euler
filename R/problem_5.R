@@ -18,4 +18,3 @@ gcd <- function(x, y){
 
 # Result:
 # > smallest_multiple(20)
-# 232792560

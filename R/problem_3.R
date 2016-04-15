@@ -20,4 +20,3 @@ large_prime_factor <- function(n){
 
 # Result:
 # > large_prime_factor(600851475143)
-# [1] 6857

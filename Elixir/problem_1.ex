@@ -9,5 +9,5 @@ defmodule Problem1 do
 end
 
 # Result:
+# > c "problem_1.ex"
 # Problem1.sum_of_multiples(3, 5, 1000)
-# 234168

@@ -17,4 +17,3 @@ sum_square_difference <- function(n){
 
 # Result:
 # > smallest_multiple(20)
-# 232792560

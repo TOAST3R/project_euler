@@ -9,5 +9,5 @@ defmodule Problem6 do
 end
 
 # Result:
+# > c "problem_6.ex"
 # > Problem6.sum_square_difference(100)
-# 25164150

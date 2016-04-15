@@ -22,5 +22,5 @@ defmodule Problem5 do
 end
 
 # Result:
+# > c "problem_5.ex"
 # > Problem5.smallest_multiple(20)
-# 232792560

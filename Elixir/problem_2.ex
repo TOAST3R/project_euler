@@ -12,5 +12,6 @@ defmodule Problem2 do
 end
 
 # Result:
-# > Problem2.fibonacci(5)
-# 20
+# > c "problem_2.ex"
+# > Problem2.fibonacci(4000000)
+# Does not end: I have to refactor it
