@@ -16,13 +16,9 @@ defmodule Problem8 do
   end
 
   defp split_in_digits(position) do
-    chunk_number(position)
+    String.slice(@n, position..(position + @digits))
       |> String.to_integer
       |> Integer.digits
-  end
-
-  defp chunk_number(position) do
-    String.slice(@n, position..(position + @digits))
   end
 end
 
