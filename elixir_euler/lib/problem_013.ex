@@ -10,7 +10,3 @@ defmodule Problem013 do
       |> String.slice(0..9)
   end
 end
-
-# Result:
-# > c "problem_013.ex"
-# > Problem013.large_sum

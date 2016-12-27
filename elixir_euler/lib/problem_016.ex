@@ -10,7 +10,3 @@ defmodule Problem016 do
       |> Enum.sum
   end
 end
-
-# Result:
-# > c "problem_016.ex"
-# > Problem016.power_digit_sum

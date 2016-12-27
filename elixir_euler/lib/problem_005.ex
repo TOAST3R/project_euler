@@ -1,7 +1,7 @@
 # Problem 5: smallest multiple
 # https://projecteuler.net/problem=5
 
-defmodule Problem5 do
+defmodule Problem005 do
   def smallest_multiple(x) do
     recursive_lcm(x, x-1)
       |> round
@@ -20,7 +20,3 @@ defmodule Problem5 do
   def gcd(x, 0), do: x
   def gcd(x, y), do: gcd(y, rem(x, y))
 end
-
-# Result:
-# > c "problem_5.ex"
-# > Problem5.smallest_multiple(20)

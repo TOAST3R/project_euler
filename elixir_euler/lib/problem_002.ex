@@ -1,7 +1,7 @@
 # Problem 2: Even Fibonacci numbers
 # https://projecteuler.net/problem=2
 
-defmodule Problem2 do
+defmodule Problem002 do
   def fibonacci(1), do: 1
   def fibonacci(2), do: 2
   def fibonacci(n), do: fibonacci(n-1) + fibonacci(n-2)
@@ -11,7 +11,10 @@ defmodule Problem2 do
   end
 end
 
-# Result:
-# > c "problem_2.ex"
-# > Problem2.fibonacci(4000000)
-# Does not end: I have to refactor it
+
+# @cache = [0,1]
+
+# def fibonacci(n)
+#   return @cache[n] if @cache[n]
+#   @cache[n] = fibonacci(n - 1) + fibonacci(n - 2)
+# end
