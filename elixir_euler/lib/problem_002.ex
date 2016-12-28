@@ -2,19 +2,19 @@
 # https://projecteuler.net/problem=2
 
 defmodule Problem002 do
-  def fibonacci(1), do: 1
-  def fibonacci(2), do: 2
-  def fibonacci(n), do: fibonacci(n-1) + fibonacci(n-2)
+  
+  def fibonacci do
+    Stream.unfold({1, 2}, fn {a, b} ->  
+      {a, {b, a + b}}
+    end)
+  end
+
   def even_sum(n) do
-    Enum.filter(fibonacci(1)..fibonacci(n), &(rem(&1, 2) == 0))
+    {finite_fib, _} = fibonacci |> Enum.flat_map_reduce(0, fn i, acc ->
+        if i < n, do: {[i], acc + 1}, else: {:halt, acc}
+      end)
+    finite_fib
+      |> Enum.filter(&(rem(&1, 2) == 0))
       |> Enum.sum
   end
 end
-
-
-# @cache = [0,1]
-
-# def fibonacci(n)
-#   return @cache[n] if @cache[n]
-#   @cache[n] = fibonacci(n - 1) + fibonacci(n - 2)
-# end
