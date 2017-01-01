@@ -6,5 +6,3 @@ defmodule Problem003Test do
     assert Problem003.factors_for(600851475143) == [71, 839, 1471, 6857]
   end
 end
-
- 

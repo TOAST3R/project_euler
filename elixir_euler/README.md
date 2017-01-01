@@ -7,7 +7,7 @@ More info: https://projecteuler.net/
 - [x] [001: Multiples of 3 and 5] (https://projecteuler.net/problem=1)
 - [x] [002: Even Fibonacci numbers] (https://projecteuler.net/problem=2)
 - [x] [003: Largest prime factor] (https://projecteuler.net/problem=3)
-- [ ] [004: Largest palindrome product] (https://projecteuler.net/problem=4)
+- [x] [004: Largest palindrome product] (https://projecteuler.net/problem=4)
 - [x] [005: Smallest multiple] (https://projecteuler.net/problem=5)
 - [x] [006: Sum square difference] (https://projecteuler.net/problem=6)
 - [ ] [007: 10001st prime] (https://projecteuler.net/problem=7)
