@@ -12,7 +12,7 @@ More info: https://projecteuler.net/
 - [x] [006: Sum square difference] (https://projecteuler.net/problem=6)
 - [ ] [007: 10001st prime] (https://projecteuler.net/problem=7)
 - [x] [008: Largest product in a series] (https://projecteuler.net/problem=8)
-- [ ] [009: Special Pythagorean triplet] (https://projecteuler.net/problem=9)
+- [x] [009: Special Pythagorean triplet] (https://projecteuler.net/problem=9)
 - [ ] [010: Summation of primes] (https://projecteuler.net/problem=10)
 - [ ] [011: Largest product in a grid] (https://projecteuler.net/problem=11)
 - [ ] [012: Highly divisible triangular number] (https://projecteuler.net/problem=12)
