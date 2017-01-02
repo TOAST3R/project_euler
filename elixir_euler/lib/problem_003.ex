@@ -2,6 +2,10 @@
 # https://projecteuler.net/problem=3
 
 defmodule Problem003 do
+  def largest_factor_for(number) do
+    factors_for(number)
+    |> Enum.max
+  end
   def factors_for(number) do
     factorize(number, 2, [])
   end

@@ -3,8 +3,8 @@
 
 defmodule Problem016 do
 
-  def power_digit_sum do
-    :math.pow(2,1000)
+  def power_digit_sum(a, n) do
+    :math.pow(a, n)
       |> round
       |> Integer.digits
       |> Enum.sum
