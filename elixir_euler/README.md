@@ -23,7 +23,7 @@ More info: https://projecteuler.net/
 - [ ] [017: Number letter counts] (https://projecteuler.net/problem=17)
 - [ ] [018: Maximum path sum I] (https://projecteuler.net/problem=18)
 - [ ] [019: Counting Sundays] (https://projecteuler.net/problem=19)
-- [ ] [020: Factorial digit sum] (https://projecteuler.net/problem=20)
+- [x] [020: Factorial digit sum] (https://projecteuler.net/problem=20)
 - [ ] [021: Amicable numbers] (https://projecteuler.net/problem=21)
 - [ ] [022: Names scores] (https://projecteuler.net/problem=22)
 - [ ] [023: Non-abundant sums] (https://projecteuler.net/problem=23)
