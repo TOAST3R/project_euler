@@ -1,11 +1,11 @@
-# Problem 7: 10001st prime
-# https://projecteuler.net/problem=7
+# Problem 10: Summation of primes
+# https://projecteuler.net/problem=10
 
-defmodule Problem007 do
-  def prime(n) do
+defmodule Problem010 do
+  def prime_sumation(n) do
     prime_stream
-    |> Enum.take(n)
-    |> List.last
+    |> Enum.take_while(&(&1 < n))
+    |> Enum.sum
   end
 
   defp prime_stream do
