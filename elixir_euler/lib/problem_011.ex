@@ -1,6 +1,6 @@
 # Problem 11: Largest product in a grid
 # https://projecteuler.net/problem=11
-require IEx;
+
 defmodule Problem011 do
   def max_product(string, n) do
     matrix = to_matrix(string)
@@ -58,7 +58,6 @@ defmodule Problem011 do
   
   def translation(vector, 0), do: vector
   def translation(vector, position) when position < 0 do
-
     [List.last(vector)] ++ List.delete_at(vector, length(vector)-1)
     |> translation(position+1)
   end
@@ -66,6 +65,7 @@ defmodule Problem011 do
     #List.delete_at(vector, 0) ++ [List.first(vector)]
     #|> translation(position-1)
     [head | tail] = vector
+
     tail ++ [head]
     |> translation(position-1)
   end
