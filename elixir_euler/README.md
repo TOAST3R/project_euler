@@ -17,7 +17,7 @@ More info: https://projecteuler.net/
 - [x] [011: Largest product in a grid] (https://projecteuler.net/problem=11)
 - [x] [012: Highly divisible triangular number] (https://projecteuler.net/problem=12)
 - [x] [013: Large sum] (https://projecteuler.net/problem=13)
-- [ ] [014: Longest Collatz sequence] (https://projecteuler.net/problem=14)
+- [x] [014: Longest Collatz sequence] (https://projecteuler.net/problem=14)
 - [ ] [015: Lattice paths] (https://projecteuler.net/problem=15)
 - [x] [016: Power digit sum] (https://projecteuler.net/problem=16)
 - [ ] [017: Number letter counts] (https://projecteuler.net/problem=17)

@@ -28,7 +28,6 @@ defmodule Problem011 do
     matrix 
     |> Enum.flat_map(fn(row) -> row
       |> Enum.chunk(n, 1)
-      |> Enum.sort(&(&1 > &2))
     end)
   end
 
@@ -38,7 +37,6 @@ defmodule Problem011 do
     |> Enum.flat_map(fn(chunk) -> chunk
       |> List.zip
       |> Enum.map(&(Tuple.to_list(&1)))
-      |> Enum.sort(&(&1 > &2))
     end)
   end
 
