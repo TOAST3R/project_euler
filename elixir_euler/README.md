@@ -14,7 +14,7 @@ More info: https://projecteuler.net/
 - [x] [008: Largest product in a series] (https://projecteuler.net/problem=8)
 - [ ] [009: Special Pythagorean triplet] (https://projecteuler.net/problem=9)
 - [x] [010: Summation of primes] (https://projecteuler.net/problem=10)
-- [ ] [011: Largest product in a grid] (https://projecteuler.net/problem=11)
+- [x] [011: Largest product in a grid] (https://projecteuler.net/problem=11)
 - [ ] [012: Highly divisible triangular number] (https://projecteuler.net/problem=12)
 - [x] [013: Large sum] (https://projecteuler.net/problem=13)
 - [ ] [014: Longest Collatz sequence] (https://projecteuler.net/problem=14)
