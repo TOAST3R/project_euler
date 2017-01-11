@@ -13,7 +13,7 @@ More info: https://projecteuler.net/
 | Problem   |      Solutions      |
 |-----------|--------------------:|
 | [001: Multiples of 3 and 5] (https://projecteuler.net/problem=1) | [Elixir](https://github.com/TOAST3R/project_euler/blob/master/elixir_euler/lib/problem_001.ex) / [R](https://github.com/TOAST3R/project_euler/blob/master/r_euler/problem_1.R) ||
-| [002: Even Fibonacci numbers] (https://projecteuler.net/problem=2) / [Ruby](https://github.com/TOAST3R/project_euler/blob/master/ruby_euler/lib/problem002.rb) | [Elixir](https://github.com/TOAST3R/project_euler/blob/master/elixir_euler/lib/problem_002.ex) / [R](https://github.com/TOAST3R/project_euler/blob/master/r_euler/problem_2.R) |
+| [002: Even Fibonacci numbers] (https://projecteuler.net/problem=2) | [Ruby](https://github.com/TOAST3R/project_euler/blob/master/ruby_euler/lib/problem002.rb) / [Elixir](https://github.com/TOAST3R/project_euler/blob/master/elixir_euler/lib/problem_002.ex) / [R](https://github.com/TOAST3R/project_euler/blob/master/r_euler/problem_2.R) |
 | [003: Largest prime factor] (https://projecteuler.net/problem=3) | [Elixir](https://github.com/TOAST3R/project_euler/blob/master/elixir_euler/lib/problem_003.ex) / [R](https://github.com/TOAST3R/project_euler/blob/master/r_euler/problem_3.R) |
 | [004: Largest palindrome product] (https://projecteuler.net/problem=4) | [Elixir](https://github.com/TOAST3R/project_euler/blob/master/elixir_euler/lib/problem_004.ex) |
 | [005: Smallest multiple] (https://projecteuler.net/problem=5) | [Elixir](https://github.com/TOAST3R/project_euler/blob/master/elixir_euler/lib/problem_005.ex) / [R](https://github.com/TOAST3R/project_euler/blob/master/r_euler/problem_5.R) |
