@@ -28,7 +28,7 @@ More info: https://projecteuler.net/
 - [ ] [022: Names scores] (https://projecteuler.net/problem=22)
 - [ ] [023: Non-abundant sums] (https://projecteuler.net/problem=23)
 - [ ] [024: Lexicographic permutations] (https://projecteuler.net/problem=24)
-- [ ] [025: 1000-digit Fibonacci number] (https://projecteuler.net/problem=25)
+- [x] [025: 1000-digit Fibonacci number] (https://projecteuler.net/problem=25)
 - [ ] [026: Reciprocal cycles] (https://projecteuler.net/problem=26)
 - [ ] [027: Quadratic primes] (https://projecteuler.net/problem=27)
 - [ ] [028: Number spiral diagonals] (https://projecteuler.net/problem=28)
