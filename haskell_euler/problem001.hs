@@ -6,5 +6,5 @@
 sumOfMultiples :: Integral a => a -> a
 sumOfMultiples (limit) = sum [ x | x <- [1..limit], x `mod` 3 == 0 || x `mod` 2 == 0 ]
 
+-- Solution:
 sumOfMultiples 1000
--- 334167
